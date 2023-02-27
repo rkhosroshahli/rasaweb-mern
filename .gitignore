@@ -8,6 +8,7 @@ node_modules
 
 nodemon.json
 
+
 # production
 /build
 /frontend/build
