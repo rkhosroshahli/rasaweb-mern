@@ -6,6 +6,8 @@ node_modules
 # testing
 /coverage
 
+nodemon.json
+
 # production
 /build
 /frontend/build
