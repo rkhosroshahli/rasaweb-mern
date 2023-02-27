@@ -3,8 +3,7 @@
         "DB_USER": "rkhosroshahli",
         "DB_PASSWORD": "U1o2I3t4",
         "DB_NAME": "clusternetworkassignmen",
-        "GOOGLE_API_KEY": "AIzaSyDbd7QX2V9sCdsWmGqAAhJ4G6rjQhdttV8",
         "JWT_KEY": "supersecret_dont_share",
-        "MAILGUN_APIKEY": "6a814eafda8e5fbdc4b026e9e9a12b13-52d193a0-490dc43f"
+        "MAILGUN_APIKEY": "key-e1fe1002d80f6f1ee72d71da6ec87594"
     }
 }
