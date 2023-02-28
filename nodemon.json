@@ -5,6 +5,6 @@
         "DB_NAME": "clusternetworkassignmen",
         "JWT_KEY": "supersecret_dont_share",
         "MAILGUN_API_KEY": "key-e1fe1002d80f6f1ee72d71da6ec87594",
-        "GOOGLE_API_KEY": "AIzaSyACuZk9cr85B3cxFmFlfuib9Eoa7tLWvLM"
+        "REACT_APP_GOOGLE_API_KEY": "AIzaSyACuZk9cr85B3cxFmFlfuib9Eoa7tLWvLM"
     }
 }
