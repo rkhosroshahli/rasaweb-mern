@@ -71,7 +71,7 @@ const createPlace = async (req, res, next) => {
   }
 
   const { title, description, address, creator } = req.body;
-
+  console.log(address)
   let coordinates;
   try {
     coordinates = await getCoordsForAddress(address);

@@ -94,7 +94,7 @@ const signup = async (req, res, next) => {
   }
 
   const DOMAIN = 'rasaweb.tech';
-  const mg = mailgun({apiKey: process.env.MAILGUN_APIKEY, domain: DOMAIN});
+  const mg = mailgun({apiKey: process.env.MAILGUN_API_KEY, domain: DOMAIN});
   const data = {
     from: 'Excited User <me@samples.mailgun.org>',
     to: email+', rasa.khosrowshahli@ontariotechu.net',
