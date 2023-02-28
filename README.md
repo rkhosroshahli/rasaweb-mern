@@ -1,1 +1,27 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10278265&assignment_repo_type=AssignmentRepo)
+# Social Media Application for Place sharing on RasaWeb
+
+In this web application you can share the place that you have visited with other user to encourage others know the world more!
+
+## Demo
+
+Here is a working live demo: [https://rasaweb.herokuapp.com](https://rasaweb.herokuapp.com)
+
+## Built with
+
+[React JS](https://reactjs.org)\
+[Node JS](https://nodejs.org)\
+[Express JS](https://expressjs.com)\
+[Mongo DB](https://Mongodb.com)\
+[MailGun](https://Mailgun.com)\
+[Heroku](https://heroku.com)
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/) © [Rasa](https://github.com/rkhosroshahli)
