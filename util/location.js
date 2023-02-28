@@ -7,7 +7,6 @@ async function getCoordsForAddress(address) {
   //   lat: 40.7484474,
   //   lng: -73.9871516
   // };   
-  console.log(process.env);
   const response = await axios.get(
     `https://maps.googleapis.com/maps/api/geocode/json?address=${encodeURIComponent("JavaScript_"+
       address

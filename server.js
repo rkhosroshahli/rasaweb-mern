@@ -18,7 +18,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 app.use('/uploads/images', express.static(path.join('uploads', 'images')));
-// console.log(path.join('/frontend/build'))
 // app.use(express.static(path.join('/frontend/build')));
 
 //  CORS Headers => Required for cross-origin/ cross-server communication
