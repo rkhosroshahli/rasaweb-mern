@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const dotenv =require("dotenv");
 
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -12,6 +13,8 @@ const HttpError = require('./models/http-error');
 const app = express();
 
 const PORT = process.env.PORT || 5000;
+
+dotenv.config();
 
 // Middleware
 app.use(bodyParser.urlencoded({ extended: true }));
