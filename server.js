@@ -14,7 +14,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Middleware
-app.use(bodyParser.urlencoded({ extended: true }));
+// app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 app.use('/uploads/images', express.static(path.join('uploads', 'images')));
@@ -39,7 +39,6 @@ app.use((req, res, next) => {
 app.use('/api/places', placesRoutes);
 app.use('/api/users', usersRoutes);
 
-__dirname=path.resolve();
 console.log(__dirname);
 if (process.env.NODE_ENV === "production"){
   app.use(express.static(path.join("frontend/build")));
